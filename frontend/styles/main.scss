@@ -65,8 +65,8 @@ input[type="submit"]:hover {
 }
 
 .section-contact {
-  margin-top: -450px;
-
+  margin-top: -65px;
+  margin-bottom: 50px;
   .card {
     background-color: #000 !important;
     border: none !important;
@@ -79,7 +79,9 @@ input[type="submit"]:hover {
   }
 }
 .bg-contact {
-  margin-top: 100px;
+  margin-top: 120px;
+  width: 600px;
+  max-height: auto;
 }
 
 // footer
@@ -94,12 +96,16 @@ footer {
 
 // all css
 section {
-  padding-top: 7rem;
+  padding-top: 8rem;
 }
-@media only screen and (max-width: 500px) {
-  /* For mobile phones: */
-
+/* For mobile phones: */
+@media only screen and (max-width: 576px) {
+  .section-contact {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .bg-contact {
+    margin-top: -100px;
     width: 100%;
   }
 }
